@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0-beta.4 (Nov 3, 2022)
+- Improved stability. 
+
 ## v1.0.0-beta.3 (Oct 6, 2022)
 - Added custom items to `LiveEvent`.
 - Added `title` and `coverURL` to `LiveEvent`.

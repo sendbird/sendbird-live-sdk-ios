@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
     'Sendbird' => 'sha.sdk_deployment@sendbird.com',
     'Ernest Hong' => 'ernest.hong@sendbird.com'
   }
-  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.3/SendbirdLiveSDK.zip", :sha1 => "7fbda4c7efd9c75c7beef34704bf7838d79dbba9" }
+  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.4/SendbirdLiveSDK.zip", :sha1 => "12cb61b559cd68ba5e6450172e37ac10b236fafc" }
   s.requires_arc = true
   s.platform = :ios, '11.0'
   s.documentation_url = 'https://sendbird.com/docs/live/v1/ios/ref/index.html'
   s.ios.vendored_frameworks = 'SendbirdLiveSDK/SendbirdLiveSDK.xcframework'
   s.dependency "SendBirdWebRTC", "~> 1.6.0"
-  s.dependency "SendbirdChatSDK", "~> 4.0.14"
+  s.dependency "SendbirdChatSDK", "~> 4.1.3"
   s.ios.frameworks =  ["UIKit", "Foundation", "WebRTC", "AVKit", "MediaPlayer", "Network", "CoreTelephony", "VideoToolbox"]
   s.ios.library   = 'icucore'
 end
