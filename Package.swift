@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendbirdLiveSDK",
-            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.4/SendbirdLiveSDK.xcframework.zip",
-            checksum: "71118806a2e93734ef38c82b88ff4f77f6e0cc3d806e5f267239e33b23d2ee53"
+            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.5/SendbirdLiveSDK.xcframework.zip",
+            checksum: "af4a08ecdbb1e468a2d94f312c090b99462c774842a3624209fdf4faaea61f46"
         ),
         .target(name: "SendbirdLiveSDKTarget",
                 dependencies: [

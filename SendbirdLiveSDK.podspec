@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SendbirdLiveSDK'
-  s.version      = "1.0.0-beta.3"
+  s.version      = "1.0.0-beta.5"
   s.summary      = 'Sendbird Live iOS Framework'
   s.description  = 'Sendbird Live API turns a client app into a live streaming platform where users can broadcast themselves in real-time to their followers.'
   s.homepage     = 'https://sendbird.com'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     'Sendbird' => 'sha.sdk_deployment@sendbird.com',
     'Ernest Hong' => 'ernest.hong@sendbird.com'
   }
-  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.4/SendbirdLiveSDK.zip", :sha1 => "12cb61b559cd68ba5e6450172e37ac10b236fafc" }
+  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.5/SendbirdLiveSDK.zip", :sha1 => "ead072d1e81c0c76162a14ddcf27161b9b8c144b" }
   s.requires_arc = true
   s.platform = :ios, '11.0'
   s.documentation_url = 'https://sendbird.com/docs/live/v1/ios/ref/index.html'
