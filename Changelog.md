@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.0.0-beta.7 (Mar 8, 2023)
+- Introducing reactions in Live Event. You can now react to live events in real time for better user interactions. 
+    - Added `LiveEvent.CreateParams.reactionKeys`
+    - Added `LiveEvent.increaseReactionCount`
+    - Added `LiveEventDelegate.didReactionCountUpdate`
+
 ## v1.0.0-beta.6 (Jan 9, 2023)
 - Add interfaces to support streaming from RTMP. 
 
