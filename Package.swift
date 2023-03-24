@@ -11,13 +11,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/sendbird/sendbird-webrtc-ios", from: "1.6.0"),
-        .package(url: "https://github.com/sendbird/sendbird-chat-sdk-ios", from: "4.2.2")
+        .package(url: "https://github.com/sendbird/sendbird-chat-sdk-ios", from: "4.6.2")
     ],
     targets: [
         .binaryTarget(
             name: "SendbirdLiveSDK",
-            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.7/SendbirdLiveSDK.xcframework.zip",
-            checksum: "fb764c04217edf0bf6ac6d2adaa2f5edab4578472b8352a8d61bb081663ba18e"
+            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.0.0-beta.8/SendbirdLiveSDK.xcframework.zip",
+            checksum: "4e77a2da08d0bca90b35bc1a3eb1f88117002b7984a9f7789bdd20d7f1cab683"
         ),
         .target(name: "SendbirdLiveSDKTarget",
                 dependencies: [

@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0-beta.8 (Mar 24, 2023)
+- Stability improvements.
+    
 ## v1.0.0-beta.7 (Mar 8, 2023)
 - Introducing reactions in Live Event. You can now react to live events in real time for better user interactions. 
     - Added `LiveEvent.CreateParams.reactionKeys`
