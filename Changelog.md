@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0-beta.9 (Apr 25, 2023)
+- Stability improvements.
+
 ## v1.0.0-beta.8 (Mar 24, 2023)
 - Stability improvements.
     
