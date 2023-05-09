@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0-beta.10 (May 9, 2023)
+- Improve audio device management while watching or hosting a Live Event.
+
 ## v1.0.0-beta.9 (Apr 25, 2023)
 - Stability improvements.
 
