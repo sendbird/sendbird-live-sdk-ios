@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sendbird-live-sdk-ios
+  description: Public repo used for releasing Live iOS SDK
+  annotations:
+    github.com/project-slug: sendbird/sendbird-live-sdk-ios
+spec:
+  type: library
+  lifecycle: production
+  owner: dep-client-platform
+  system: sendbird-live
+
