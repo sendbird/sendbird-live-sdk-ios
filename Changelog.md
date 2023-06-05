@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.13 (June 5, 2023)
+- Added bandwidth, resolution, availableBitrate to ConnectionMetrics for better information about the live event.
+
 ## v1.0.0-beta.12 (May 24, 2023)
 - Added interfaces to set video quality constraints. 
     - Added `MediaOptions.videoQualityConstraints`
