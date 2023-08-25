@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.0-beta.15 (Aug 25, 2023)
+- Stability improvements. 
+
 ## 1.0.0-beta.14 (Jul 24, 2023)
 - Fix an issue where Host's media status won't update properly. 
 
