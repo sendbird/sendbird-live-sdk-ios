@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.1.1 (Nov 3, 2023)
+- Stability improvements.
+
 ## 1.1.0 (Sep 7, 2023)
 ### Sendbird Live SDK is now out of beta. 
 
