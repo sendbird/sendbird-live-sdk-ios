@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.2.0 (Dec 2, 2023)
+- Added support for streaming with multiple hosts
+    - Now, multiple hosts can stream in a live event simultaneously. 
+    - `LiveEvent.hostType` has changed to `LiveEvent.type`
+    - LiveEventType can have following values: `audioOnly` and `video`, indicating the live event type for audio-only streaming and video streaming, respectively. 
+    - `LiveEventCreateParams.hostType` has changed to `LiveEventCreateParams.type`
+    - `LiveEventQuery.hostTypes` has changed to `LiveEventQuery.types`
+- Added event listeners for receiving connection
+    - LiveEventDelegate.didDisconnect(liveEvent: LiveEvent, e: Error)
+    - LiveEventDelegate.didReconnect(liveEvent: LiveEvent)
+- The existing `didDisconnect` event is now renamed to `LiveEventDelegate.didExit(liveEvent: LiveEvent, e: Error)`
+
 ## 1.2.0-beta.1 (Nov 8, 2023)
 - Added support for streaming with multiple hosts
     - Now, multiple hosts can stream in a live event simultaneously. 
