@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.1 (Dec 8, 2023)
+- Added `LiveEventDelegate.didHostVideoResolutionChange` to monitor changes in video resolution. 
+
 ## 1.2.0 (Dec 2, 2023)
 - Added support for streaming with multiple hosts
     - Now, multiple hosts can stream in a live event simultaneously. 
