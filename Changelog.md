@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.2 (Dec 18, 2023)
+- Added `LiveEvent.setVideoRendererForLiveEvent` to add video renderer to a specific host. 
+
 ## 1.2.1 (Dec 8, 2023)
 - Added `LiveEventDelegate.didHostVideoResolutionChange` to monitor changes in video resolution. 
 
