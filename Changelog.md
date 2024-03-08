@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.3 (Mar 8, 2024)
+- Stability improvements. 
+
 ## 1.2.2 (Dec 18, 2023)
 - Added `LiveEvent.setVideoRendererForLiveEvent` to add video renderer to a specific host. 
 
