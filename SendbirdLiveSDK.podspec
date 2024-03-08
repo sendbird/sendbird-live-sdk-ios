@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SendbirdLiveSDK'
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = 'Sendbird Live iOS Framework'
   s.description  = 'Sendbird Live API turns a client app into a live streaming platform where users can broadcast themselves in real-time to their followers.'
   s.homepage     = 'https://sendbird.com'
@@ -10,17 +10,16 @@ Pod::Spec.new do |s|
     'Sendbird' => 'sha.sdk_deployment@sendbird.com',
     'Damon Park' => 'damon.park@sendbird.com',
     'Jed Gyeong' => 'jed@sendbird.com',
-    'Jaesung Lee' => 'jaesung.lee@sendbird.com',
     'Tez Park' => 'tez.park@sendbird.com',
     'Celine Moon' => 'celine.moon@sendbird.com',
     'Young Hwang' => 'young.hwang@sendbird.com'
   }
-  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.2.2/SendbirdLiveSDK.zip", :sha1 => "3fc8c2e6f79c6d91fdcbb4d87ac8db5f91f4c20a" }
+  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.2.3/SendbirdLiveSDK.zip", :sha1 => "5f92b81c6d0a004aa0964d16db01a69248ea8638" }
   s.requires_arc = true
   s.platform = :ios, '11.0'
   s.documentation_url = 'https://sendbird.com/docs/live/v1/ios/ref/index.html'
   s.ios.vendored_frameworks = 'SendbirdLiveSDK/SendbirdLiveSDK.xcframework'
-  s.dependency "SendBirdWebRTC", "~> 1.7.0"
+  s.dependency "SendBirdWebRTC", "~> 1.8.1"
   s.dependency "SendbirdChatSDK", "~> 4.11.0"
   s.ios.frameworks =  ["UIKit", "Foundation", "WebRTC", "AVKit", "MediaPlayer", "Network", "CoreTelephony", "VideoToolbox"]
   s.ios.library   = 'icucore'
