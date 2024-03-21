@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.4 (Mar 21, 2024)
+- Improved WebRTC internal logging.
+
 ## 1.2.3 (Mar 8, 2024)
 - Stability improvements. 
 
