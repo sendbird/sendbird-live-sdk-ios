@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.6 (Jun 17, 2024)
+* Updated SendbirdChatSDK dependency's minimum version.
+
 ## 1.2.5 (Apr 4, 2024)
 * Updated iOS deployment target to 12.0
 * Updated Xcode version to 15.0
