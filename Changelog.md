@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.7 (Sep 23, 2024)
+* Fixed issues depending on LiveSDK / ChatSDK initialization timing
+  * ChannelDelegate in ChatSDK not working issue
+  * disconnection issues
+* Updated SendbirdChatSDK dependency's minimum version to 4.21.3
+
 ## 1.2.6 (Jun 17, 2024)
 * Updated SendbirdChatSDK dependency's minimum version.
 
