@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     'Celine Moon' => 'celine.moon@sendbird.com',
     'Young Hwang' => 'young.hwang@sendbird.com'
   }
-  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.2.8/SendbirdLiveSDK.zip", :sha1 => "f69474b4a225c9b9ea3e954e526fe6d580e471e9" }
+  s.source       = { :http => "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.2.8/SendbirdLiveSDK.zip", :sha1 => "709b02a9815590843f853f966fa1b2f708b36908" }
   s.requires_arc = true
   s.platform = :ios, '12.0'
   s.documentation_url = 'https://sendbird.com/docs/live/v1/ios/ref/index.html'
