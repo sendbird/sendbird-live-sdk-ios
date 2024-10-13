@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.8 (Oct 13, 2024)
+* Fixed `ITMS-91065: Missing signature` issue when distributing the app to the App Store review
+
 ## 1.2.7 (Sep 23, 2024)
 * Fixed issues depending on LiveSDK / ChatSDK initialization timing
   * ChannelDelegate in ChatSDK not working issue
