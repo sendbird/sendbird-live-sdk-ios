@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.9 (Jan 22, 2025)
+* Fixed to prevent re-initialization of SendbirdChat
+
 ## 1.2.8 (Oct 13, 2024)
 * Fixed `ITMS-91065: Missing signature` issue when distributing the app to the App Store review
 
