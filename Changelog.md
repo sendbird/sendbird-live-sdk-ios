@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.3.0 (May 14, 2025)
+* Updated iOS deployment target to 13.0
+
 ## 1.2.9 (Jan 22, 2025)
 * Fixed to prevent re-initialization of SendbirdChat
 

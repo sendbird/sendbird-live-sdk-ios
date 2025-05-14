@@ -3,7 +3,7 @@
 import PackageDescription
 let package = Package(
     name: "SendbirdLiveSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "SendbirdLiveSDK",
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendbirdLiveSDK",
-            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.2.9/SendbirdLiveSDK.xcframework.zip",
-            checksum: "841025d0afc1a27cc1776311f3ffc5c262ab996d0cbfbd7343539c8a4cd66006"
+            url: "https://github.com/sendbird/sendbird-live-sdk-ios/releases/download/v1.3.0/SendbirdLiveSDK.xcframework.zip",
+            checksum: "dd1c968324790e11dc923d9fa3ffdd16ed5bbd5cac6d5df982ad08d80899f68e"
         ),
         .target(name: "SendbirdLiveSDKTarget",
                 dependencies: [
