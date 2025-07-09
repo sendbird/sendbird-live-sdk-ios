@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.4.0 (Jul 9, 2025)
+* Updated iOS deployment target to 14.0
+* Resolved an issue where live events with a cover image were not being created properly
+
 ## 1.3.0 (May 14, 2025)
 * Updated iOS deployment target to 13.0
 
