@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.5.0 (Aug 5, 2025)
+* Resolved ABI issue with SendbirdChatSDK v4.29.2
+ 
 ## 1.4.0 (Jul 9, 2025)
 * Updated iOS deployment target to 14.0
 * Resolved an issue where live events with a cover image were not being created properly
