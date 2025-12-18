@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.5.1 (Dec 18, 2025)
+* Updated SendbirdChatSDK dependency to v4.35.0
+
 ## 1.5.0 (Aug 5, 2025)
 * Resolved ABI issue with SendbirdChatSDK v4.29.2
  
