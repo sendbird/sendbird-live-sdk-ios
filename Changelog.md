@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.5.2 (Feb 3, 2026)
+* Reduced time to reach HD
+* Fixed screen rotation bug
+
 ## 1.5.1 (Dec 18, 2025)
 * Updated SendbirdChatSDK dependency to v4.35.0
 
